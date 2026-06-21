@@ -898,4 +898,5 @@ body.fullscreen-active #nav .dot.active-dot {
 </html>`;
 
 fs.writeFileSync(path.join(__dirname, 'presentation.html'), html, 'utf8');
+fs.writeFileSync(path.join(__dirname, 'index.html'), html, 'utf8');
 console.log('Done! File size:', (html.length/1024).toFixed(1), 'KB');
